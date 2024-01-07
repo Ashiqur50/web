@@ -3888,10 +3888,11 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				height: 3.5em;
+				height: 2.5em;
 				left: 0;
-				line-height: 3.5em;
-				overflow: hidden;
+				line-height: 2.5em;
+				overflow: auto;
+				white-space: nowrap;
 				padding: 0;
 				text-align: center;
 				top: 0;
@@ -3914,6 +3915,7 @@ input, select, textarea {
 				#sidebar nav {
 					height: inherit;
 					line-height: inherit;
+					width: 100%;
 				}
 
 					#sidebar nav ul {

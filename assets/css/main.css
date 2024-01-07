@@ -3607,7 +3607,7 @@ input, select, textarea {
 				margin: 1.5em 0 0 0;
 				opacity: 1;
 				padding: 0;
-				/* position: relative; */
+				position: relative;
 			}
 
 				#sidebar nav > ul > li:first-child {
@@ -3768,7 +3768,7 @@ input, select, textarea {
 			line-height: 1.75;
 			outline: 0;
 			padding: 1.35em 0;
-			/* position: relative; */
+			position: relative;
 			text-decoration: none;
 			text-transform: uppercase;
 		}
@@ -3778,7 +3778,7 @@ input, select, textarea {
 				bottom: 0;
 				content: '';
 				height: 0.2em;
-				/* position: absolute; */
+				position: absolute;
 				right: 0;
 				width: 100%;
 			}
